@@ -11,10 +11,10 @@ This is a pair programming workshop, so pick someone to be the driver first, and
 Bubble sort has a fairly simple implementation: each pair of consecutive elements is put in order one by one, until the whole list is sorted. This usually requires multiple passes over a list until it's fully sorted. The larger elements will "bubble up" to the end of the list as you go along.
 
 1. Start at the first element in the list.
-    1.1. Compare it to the next element.
-    1.2. If these 2 elements are in the wrong order, swap them.
-    1.3. Move to the next element of the list.
-2. Repeat steps 1.1 to 1.3 until reaching the end of the list.
+    - Compare it to the next element.
+    - If these 2 elements are in the wrong order, swap them.
+    - Move to the next element of the list.
+2. Repeat the steps in 1. until reaching the end of the list.
 3. Repeat steps 1 and 2 until you can go through the list without having swapped any elements -- this means that the list is now sorted.
 
 ![Bubble sort](graphics/Bubble-sort-example-300px.gif)
